@@ -24,25 +24,25 @@
           <a class="logo logo__header page-navigation__logo" href="./index.html"
             ><span class="logo__general">Web</span>Studio</a
           >
-          <ul class="site-nav">
-            <li class="site-nav__item">
-              <a class="site-nav__link current" href="./index.html">Студія</a>
+          <ul class="nav-list">
+            <li class="nav-list__item">
+              <a class="nav-list__link current" href="./index.html">Студія</a>
             </li>
-            <li class="site-nav__item">
-              <a class="site-nav__link" href="./portfolio.html">Портфоліо</a>
+            <li class="nav-list__item">
+              <a class="nav-list__link" href="./portfolio.html">Портфоліо</a>
             </li>
-            <li class="site-nav__item">
-              <a class="site-nav__link" href="#contacts">Контакти</a>
+            <li class="nav-list__item">
+              <a class="nav-list__link" href="#contacts">Контакти</a>
             </li>
           </ul>
         </nav>
-        <ul class="list contacts-container">
-          <li class="auth-nav">
-            <a class="contacts auth-nav__mail" href="mailto:info@devstudio.com">
+        <ul class="list contacts-list">
+          <li>
+            <a class="contacts contacts-list__mail" href="mailto:info@devstudio.com">
               <svg
                 lang="en"
                 aria-label="icon envelope"
-                class="contacts-list-icon"
+                class="contacts-list__icon"
                 width="16px"
                 height="12px"
               >
@@ -51,12 +51,12 @@
               info@devstudio.com</a
             >
           </li>
-          <li class="auth-nav">
-            <a class="contacts auth-nav__phone" href="tel:+380961111111">
+          <li>
+            <a class="contacts contacts-list__phone" href="tel:+380961111111">
               <svg
                 lang="en"
                 aria-label="icon smartphone"
-                class="contacts-list-icon"
+                class="contacts-list__icon"
                 width="10px"
                 height="16px"
               >
@@ -72,16 +72,16 @@
     <main>
       <section class="hero section">
         <div class="container">
-          <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+          <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
           <button class="button" type="button" data-modal-open>Замовити послугу</button>
       </div>
       </section>
       <section class="benefits section">
         <div class="container">
           <h2 class="visually-hidden">Наші переваги</h2>
-          <ul class="list list-benefits">
-            <li class="list-benefits__item">
-              <div class="list-benefits__icon">
+          <ul class="list benefits-list">
+            <li class="benefits-list__item">
+              <div class="benefits-list__icon">
                 <svg
                   lang="en"
                   aria-label="icon antenna"
@@ -91,14 +91,14 @@
                   <use href="./images/sprite.svg#icon-antenna"></use>
                 </svg>
               </div>
-              <h3 class="list-benefits__title">Увага до деталей</h3>
-              <p class="list-benefits__text">
+              <h3 class="benefits-list__title">Увага до деталей</h3>
+              <p class="benefits-list__text">
                 Ідейні міркування, і навіть початок повсякденної роботи з
                 формування позиції.
               </p>
             </li>
-            <li class="list-benefits__item">
-              <div class="list-benefits__icon">
+            <li class="benefits-list__item">
+              <div class="benefits-list__icon">
                 <svg
                   lang="en"
                   aria-label="icon clock"
@@ -108,14 +108,14 @@
                   <use href="./images/sprite.svg#icon-clock"></use>
                 </svg>
               </div>
-              <h3 class="list-benefits__title">Пунктуальність</h3>
-              <p class="list-benefits__text">
+              <h3 class="benefits-list__title">Пунктуальність</h3>
+              <p class="benefits-list__text">
                 Завдання організації, особливо рамки і місце навчання кадрів
                 тягне у себе.
               </p>
             </li>
-            <li class="list-benefits__item">
-              <div class="list-benefits__icon">
+            <li class="benefits-list__item">
+              <div class="benefits-list__icon">
                 <svg
                   lang="en"
                   aria-label="icon diagram"
@@ -125,13 +125,13 @@
                   <use href="./images/sprite.svg#icon-diagram"></use>
                 </svg>
               </div>
-              <h3 class="list-benefits__title">Планування</h3>
-              <p class="list-benefits__text">
+              <h3 class="benefits-list__title">Планування</h3>
+              <p class="benefits-list__text">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
-            <li class="list-benefits__item">
-              <div class="list-benefits__icon">
+            <li class="benefits-list__item">
+              <div class="benefits-list__icon">
                 <svg
                   lang="en"
                   aria-label="icon astronaut"
@@ -141,8 +141,8 @@
                   <use href="./images/sprite.svg#icon-astronaut"></use>
                 </svg>
               </div>
-              <h3 class="list-benefits__title">Сучасні технології</h3>
-              <p class="list-benefits__text">
+              <h3 class="benefits-list__title">Сучасні технології</h3>
+              <p class="benefits-list__text">
                 Значимість цих проблем настільки очевидна, що реалізація
                 планових завдань.
               </p>
@@ -150,7 +150,7 @@
           </ul>
         </div>
       </section>
-      <section class="about section">
+      <section>
         <div class="container">
           <h2 class="section-title">Чим ми займаємося</h2>
           <ul class="list business-list">

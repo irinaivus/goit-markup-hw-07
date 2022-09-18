@@ -1,25 +1,25 @@
 .page-navigation,
-.site-nav,
-.contacts-container {
+.nav-list,
+.contacts-list {
     display: flex;
     align-items: center;
 }
 
-.auth-nav__mail {
+.contacts-list__mail {
     margin-left: auto;
     margin-right: 50px;
 }
 
-.site-nav {
+.nav-list {
     column-gap: 50px;
 }
 .list,
-.site-nav {
+.nav-list {
     accent-color: var(--third-color);
     list-style: none;
 }
 
-.site-nav__link{
+.nav-list__link{
     text-decoration: none;
     font-weight: var(--main-font-weight);
     line-height: 1.14;
@@ -39,7 +39,7 @@
      color: var(--third-color);}
 }
 
-.site-nav__link {
+.nav-list__link {
     position: relative;
     padding-bottom: 32px;
     color: var(--main-color);
@@ -56,43 +56,43 @@
         background-color: var(--third-color);
         border-radius: 2px;}
 
-        .site-nav &.current {
+        .nav-list &.current {
         color: var(--third-color); }
 }
 
 
 
-.contacts-list-icon {
+.contacts-list__icon {
     fill: currentColor;
     margin-right: 10px;
 }
 
-.auth-nav__mail {
+.contacts-list__mail {
     display: flex;
     align-items: center;
     fill: currentColor;
     color: var(--second-color);
 
-     .auth-nav &:hover,
-     .auth-nav &:focus {
+     .contacts-list &:hover,
+     .contacts-list &:focus {
         color: var(--third-color);
         }
 
-     .auth-nav & {
+     .contacts-list & {
         transition: color var(--transition-duration);}
 }
 
-.auth-nav__phone {
+.contacts-list__phone {
     display: flex;
     align-items: center;
     fill: currentColor;
     color: var(--second-color);
 
-     .auth-nav &:hover,
-     .auth-nav &:focus {
+     .contacts-list &:hover,
+     .contacts-list &:focus {
         color: var(--third-color);}
 
-    .auth-nav & {
+    .contacts-list & {
         transition: color var(--transition-duration);}
 }
 

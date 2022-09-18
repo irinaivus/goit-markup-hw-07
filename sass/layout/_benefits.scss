@@ -1,4 +1,4 @@
-.list-benefits__title {
+.benefits-list__title {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
@@ -6,22 +6,22 @@
     margin-bottom: 10px;
 }
 
-.list-benefits__text {
+.benefits-list__text {
     line-height: 1.71;
     color: var(--second-color);
     letter-spacing: 0.03em;
 }
 
-.list-benefits {
+.benefits-list {
     display: flex;
     gap: 30px;
 }
 
-.list-benefits__item {
+.benefits-list__item {
     width: 270px;
 }
 
-.list-benefits__icon {
+.benefits-list__icon {
     display: flex;
     justify-content: center;
     align-items: center;
